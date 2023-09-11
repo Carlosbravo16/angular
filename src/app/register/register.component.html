@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/register.component.css">
+    <title>Registro</title>
+</head>
+
+<body>
+
+    <h1 class="titulo"><strong>Registrarse</strong></h1>
+
+    <div class="container">
+
+        <div>
+
+            <mat-form-field>
+                <input type="text" matInput placeholder="Nombre:">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" matInput placeholder="Apellido:">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="email" matInput placeholder="Email:">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" matInput placeholder="Nombre de usuario:">
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-select placeholder="Tipo de documento:">
+                    <mat-option>Tarjeta de identidad</mat-option>
+                    <mat-option>Cedula de ciudadania</mat-option>
+                    <mat-option>NUIP</mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="number" matInput placeholder="Número de documento:">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="number" matInput placeholder="Teléfono:">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="password" matInput placeholder="Contraseña:">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="password" matInput placeholder="Confirmar contraseña:">
+            </mat-form-field>
+
+            <button mat-raised-button color="primary">Registrarse</button>
+            <a href="/login" class="buttonRegister">Registrarse</a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

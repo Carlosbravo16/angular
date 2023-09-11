@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to right, #3498db, #BDC3C7);
+}
+.titulo{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #3498db, #BDC3C7);
+}
+.container div{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px rgb(94, 89, 89);
+    border-radius: 5px;
+}
+.container button{
+    margin-left: 120px;
+    text-align: center;
+    width: 150px;
+}
